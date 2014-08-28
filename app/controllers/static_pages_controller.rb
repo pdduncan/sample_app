@@ -7,4 +7,8 @@ class StaticPagesController < ApplicationController
 
   def about
   end
+
+  def contact
+    puts "TRYING TO GET IN CONTACT!"
+  end
 end
